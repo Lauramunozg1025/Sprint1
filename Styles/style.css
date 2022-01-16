@@ -1,0 +1,154 @@
+
+
+body {
+    background: linear-gradient(to bottom right, rgb(247, 243, 6), rgb(0, 173, 253));
+}
+
+#inicio {
+    width: 1366px;
+    height: 1623px;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: 0px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+#nav {
+    list-style: none;
+}
+
+#nav .lista-nav {
+    display: inline-block;
+}
+
+#tiendita {
+    float: left;
+    width: 92px;
+    height: 16px;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.float-right {
+    float: right;
+    margin-right: 10px;
+}
+
+#carrito {
+    width: 89px;
+    height: 35px;
+    color: white;
+    background-color: #0AC763;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+#Inputubicacion {
+    border: 0px;
+    width: 260px;
+}
+
+#imagen-poster {
+    width: 1286px;
+    height: 250px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+.products {
+    margin: 2%;
+    border-radius: 15px;
+    background-color: white;
+    border: 0px;
+    box-shadow: 5px 3px 8px rgba(15, 15, 15, 0.075);
+
+}
+
+.text-ofertas {
+    margin: 25px;
+}
+
+#cards {
+    overflow: auto;
+}
+
+#cards::-webkit-scrollbar {
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.062);
+    border-radius: 10px;
+}
+
+.producto-info {
+    width: 194px;
+    height: 418px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.productosJava {
+    margin-right: 40px;
+}
+
+#descuento {
+    width: 69px;
+    height: 20px;
+    background: #F0E3FE;
+    color: #7900fa;
+    font-size: 15px;
+    border-radius: 16px;
+    float: left;
+    text-align: center;
+}
+
+.img-producto {
+    width: 194px;
+    height: 194px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+#Precio-descuento {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#Precio-original {
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    text-decoration: line-through;
+    line-height: 24px;
+}
+
+#nombre {
+    font-family: Poppins;
+    width: 194px;
+    height: 72px;
+}
+
+#peso {
+    font-family: Poppins;
+    font-size: 12px;
+    color: #B8B4B4;
+}
+
+.agregar {
+    color: white;
+    background-color: #0AC763;
+    border: 0px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 12px 24px;
+    width: 194px;
+    height: 40px;
+    cursor: pointer;
+}

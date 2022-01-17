@@ -262,4 +262,6 @@
     align-items: center;
     padding: 12px 24px;
     text-decoration: none;
+    background-color: none;
+    height: 150px;
 }

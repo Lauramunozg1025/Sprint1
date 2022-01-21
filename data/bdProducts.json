@@ -1,74 +1,81 @@
 {
     "descuentos":[
-        {
+       {
             "id": "0",
             "descuento": "32%",
             "img": "./imagenes/limon.jpeg",
+            "img2": "./imagenes/limon.jpeg",
             "Precio_descuento": "26.82",
-            "Precio_original": "26.82/Kg",
+            "Precio_original": "28.82/Kg",
             "nombre": "Limon con semilla",
             "descripcion": "Este es un producto...",
-            "categoria": "fruta"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "1",
             "descuento": "32%",
             "img": "./imagenes/tomate.jpeg",
+            "img2": "./imagenes/tomate.jpeg",
             "Precio_descuento": "21.79",
             "Precio_original": "32.9/Kg",
             "nombre": "Tomate",
             "descripcion": "Este es un producto...",
-            "categoria": "verdura"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "2",
             "descuento": "18%",
             "img": "./imagenes/aguacate.jpeg",
+            "img2": "./imagenes/aguacate.jpeg",
             "Precio_descuento": "56.8",
             "Precio_original": "69.9/Kg",
             "nombre": "Aguacate Hass",
             "descripcion": "Peso aproximadamente por pieza, puede variar de acuerdo al peso real",
-            "categoria": "verdura"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "3",
             "descuento": "13%",
             "img": "./imagenes/nopalo.jpeg",
+            "img2": "./imagenes/nopalo.jpeg",
             "Precio_descuento": "25.8",
             "Precio_original": "29.9/Kg",
             "nombre": "Nopal limpio",
             "descripcion": "Este es un producto...",
-            "categoria": "verdura"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "4",
             "descuento": "8%",
             "img": "./imagenes/tomateVerde.jpeg",
+            "img2": "./imagenes/tomateVerde.jpeg",
             "Precio_descuento": "22.89",
             "Precio_original": "24.9/Kg",
             "nombre": "Tomate verde sin cascara",
             "descripcion": "Este es un producto...",
-            "categoria": "verdura"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "5",
             "descuento": "7%",
             "img": "./imagenes/naranja.jpeg",
+            "img2": "./imagenes/naranja.jpeg",
             "Precio_descuento": "19.8",
             "Precio_original": "21.9/Kg",
             "nombre": "Aguacate Hass ",
             "descripcion": "Este es un producto...",
-            "categoria": "fruta"
+            "categoria": "fruta/verdura"
         },
         {
             "id": "6",
             "descuento": "10%",
             "img": "./imagenes/jitomate.jpeg",
+            "img2": "./imagenes/jitomate.jpeg",
             "Precio_descuento": "20.8",
             "Precio_original": "23.5/Kg",
             "nombre": "Jitomate Bola",
             "descripcion": "Este es un producto...",
-            "categoria": "verdura"
+            "categoria": "fruta/verdura"
         } 
     ],
 
@@ -76,6 +83,7 @@
         {
             "id": "7",
             "precio": "62.5",
+            "tipoPeso": "gr",
             "img": "./imagenes/pecugaPavo.jpeg",
             "nombre": "San Rafael pechuga de pavo",
             "peso": "250g ($0.25/gr)",
@@ -85,6 +93,7 @@
         {
             "id": "8",
             "precio": "38.9",
+            "tipoPeso": "gr",
             "img": "./imagenes/pan.jpeg",
             "nombre": "Bimbo Pan Blanco Grande",
             "peso": "680g ($0.6/gr)",
@@ -93,7 +102,8 @@
         },
         {
             "id": "9",
-            "precio": "$48.5",
+            "precio": "48.5",
+            "tipoPeso": "gr",
             "img": "./imagenes/mayonesa.jpeg",
             "nombre": "Mc Cormick Mayones",
             "peso": "507g ($0.1/gr)",
@@ -103,6 +113,7 @@
         {
             "id": "10",
             "precio": "35.5",
+            "tipoPeso": "ml",
             "img": "./imagenes/colino.jpeg",
             "nombre": "Colgate Pasta Dental Triple Familiar 2u",
             "peso": "125ml ($0.28/ml)",
@@ -112,6 +123,7 @@
         {
             "id": "11",
             "precio": "37.5",
+            "tipoPeso": "Und",
             "img": "./imagenes/huevos.jpeg",
             "nombre": "Huevos San Juan",
             "peso": "18 Und ($2.08/u)",
@@ -121,6 +133,7 @@
         {
             "id": "12",
             "precio": "20.41",
+            "tipoPeso": "Lt",
             "img": "./imagenes/cocacola0.jpeg",
             "nombre": "Coca-Cola sin Azucar",
             "peso": "2.5L ($8.16/Lt) ",
@@ -130,6 +143,7 @@
         {
             "id": "13",
             "precio": "12.76",
+            "tipoPeso": "Lt",
             "img": "./imagenes/cocacola.jpeg",
             "nombre": "Coca-Cola Original",
             "peso": "600ml ($0.021/ml)",
@@ -139,6 +153,7 @@
         {
             "id": "14",
             "precio": "25.51",
+            "tipoPeso": "Lt",
             "img": "./imagenes/fabuloso.jpeg",
             "nombre": "Fabuloso",
             "peso": "2L ($12.755/Lt)",

@@ -1,0 +1,92 @@
+/* Modal carrito */
+
+.modalDialog2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.712);
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog2:target {
+    opacity: 5;
+    pointer-events: auto;
+}
+
+.modalDialog2>div {
+    float:right;
+    width: 562px;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+/* .modalDialog>div::-webkit-scrollbar {
+} */
+
+.close {
+    background: transparent;
+    color: #202020;
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 5px;
+    text-decoration: none;
+}
+
+.close:hover {
+    color: #fd6500;
+}
+
+#vinculo-modal {
+    color: rgb(0, 0, 0);
+}
+
+/* Info Productos en el carrito */
+
+.item-carrito {
+    list-style: none;
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.img-carrito {
+    width: 115px;
+    height: 115px;
+    margin-top: 20%;
+    overflow: hidden;
+}
+
+.img-carrito img {
+    width: 120%;
+
+}
+
+.nombre-carrito {
+    width: 50%;
+    font-size: 20px;
+}
+
+.precio-carrito {
+    font-size: 18px;
+}
+
+#contador{
+    background-color: rgb(240, 255, 247);
+    width: 60%;
+    height: 15%;
+    text-align: center;
+    font-size: 20px;
+    border: 0px;
+    float: right;
+}
+
+
